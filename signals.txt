@@ -1,0 +1,21 @@
+Signals for debugging
+
+- clk
+- reset
+- DUT.PC0.pc
+- DUT.instr
+- DUT.opcode
+- DUT.rs1, DUT.rs2, DUT.rd
+- DUT.imm
+- DUT.reg_rs1, DUT.reg_rs2
+- DUT.alu_in_B
+- DUT.alu_result
+- DUT.Zero
+- DUT.MemRead, DUT.MemWrite, DUT.MemtoReg
+- DUT.DMEM0.addr
+- DUT.DMEM0.write_data
+- DUT.DMEM0.read_data
+- DUT.RF0.regs[1]
+- DUT.RF0.regs[2]
+- DUT.RF0.regs[3]
+- DUT.DMEM0.ram[34]
